@@ -21,7 +21,7 @@ Asena.addCommand({pattern: 'help', fromMe: false, desc: Lang.WP}, (async (messag
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `🌹══════😋MsJessica😋══════🌹
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `🌹══════😋Queen emma😋══════🌹
 
 
 😘 𝐈 𝐚𝐦 𝐚 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩 user 𝐛𝐨𝐭.😏
